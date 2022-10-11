@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/Widget.MaterialComponents.BottomSheet"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.MaterialComponents.BottomSheet"
+        android:layout_marginEnd="20dp"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_digit_pin_has_been_sent_to_your_phone_enter_it_below_to_continue"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:weightSum="5">
+
+        <EditText
+            android:id="@+id/edit_text_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="5"
+            android:textColorHint="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textCursorDrawable="@color/theme"
+            android:maxLength="1"
+            android:focusable="true" />
+
+        <EditText
+            android:id="@+id/edit_text_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:background="@drawable/rounded_outline"
+            android:paddingTop="10dp"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@color/theme"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:maxLength="1"
+            android:focusable="true" />
+
+        <EditText
+            android:id="@+id/edit_text_third"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_outline"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@color/theme"
+            android:textSize="14sp"
+            android:maxLength="1"
+            android:focusable="true" />
+
+        <EditText
+            android:id="@+id/edit_text_fourth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_outline"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@color/theme"
+            android:textSize="14sp"
+            android:maxLength="1"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i_didn_t_receive_the_code_resend"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+
+        <Button
+            android:id="@+id/confirm_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_30sdp"
+            android:text="confirm"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_outline"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

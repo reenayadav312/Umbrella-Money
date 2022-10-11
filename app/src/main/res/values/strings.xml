@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ambrella Money</string>
+    <string name="in_hac_habitasse_platea_dictumst">In hac habitasse platea dictumst.</string>
+    <string name="donec_facilisis_tortor_ut_augue_lacinia_at_viverra_est_semper_donec_facilisis_tortor_ut_augue_lacinia_at_viverra_est_semper">Donec facilisis tortor ut augue lacinia, at viverra est semper.Donec facilisis tortor ut augue lacinia, at viverra est semper.</string>
+    <string name="already_have_an_account_sign_in">Already have an account? <font color='#EE4854'>Sign In</font></string>
+    <string name="by_continuning_you_agree_to_our_terms_conditions_privacy_policy">By continuning, you agree to our \n <font color='#EE4854'> Terms &amp; Conditions , Privacy Policy </font></string>
+    <string name="if_you_have_any_questions_order_a_free_conversation_with_our_consultant_1800_260_320_420">If you have any questions, order a free conversation with our consultant.\n<font color='#EE4854'>1800 260 320 420</font></string>
+    <string name="_4_digit_pin_has_been_sent_to_your_phone_enter_it_below_to_continue">4 - Digit PIN has been sent to your phone, \n enter it below to continue.</string>
+    <string name="i_didn_t_receive_the_code_resend">I didn’t receive the code, <font color='#EE4854'>Resend</font></string>
+    <string name="hello">Hello!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

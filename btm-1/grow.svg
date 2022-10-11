@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Bar" width="24" height="24" transform="translate(-5274 -3262)" fill="#515560"/>
+    </clipPath>
+  </defs>
+  <g id="grow" transform="translate(5274 3262)" clip-path="url(#clip-path)">
+    <g id="grow-2" data-name="grow" transform="translate(-5274.142 -3257.621)">
+      <path id="Path_1" data-name="Path 1" d="M24.045,1.164a1.218,1.218,0,0,0-1.1-.744h-6a1.2,1.2,0,0,0,0,2.4H20.05L13.344,9.526,9.4,5.567a1.2,1.2,0,0,0-1.7,0l-7.2,7.2a1.2,1.2,0,1,0,1.7,1.7L8.545,8.11l3.947,3.959a1.2,1.2,0,0,0,1.7,0l7.546-7.558V7.618a1.2,1.2,0,1,0,2.4,0v-6a1.2,1.2,0,0,0-.1-.456Z" fill="#515560"/>
+    </g>
+  </g>
+</svg>
